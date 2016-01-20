@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('body').prepend('<div class="container"></div>')
-
+	$('body').css('background-color','#dbeef0')
 	$('.container').prepend('<button onclick="newGrid(); return false">New Grid</button>')
 		.append('<ul></ul>')
 		.append('<ul></ul>')
